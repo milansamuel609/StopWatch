@@ -1,0 +1,41 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:blanchedalmond;
+}
+
+#stopwatch-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#stopwatch{
+    border: 1px solid #000;
+    display: block;
+    margin: 20px auto;
+}
+
+#button-container{
+    position:absolute;
+    top: 470px;
+}
+
+button {
+    margin: 5px;
+    font-size: 16px;
+    background-color: #4CAF50; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  button:hover {
+    background-color: red
+  }
